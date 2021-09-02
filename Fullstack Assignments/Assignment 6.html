@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 (Card layout)</title>
+    <style>
+        /* *{
+            padding: 0; margin: 0; box-sizing: border-box;
+        } */
+        
+        button
+        {
+            background-color: red;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .box h2
+        {
+            text-align: center;
+        }
+        
+        .box
+        {
+            height: 400px;
+            width: 300px;
+            overflow: hidden;
+            padding: 10px;
+           margin: 8px;
+            text-align: justify;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        }
+
+        #container
+        {
+            display: inline-flex ; 
+            width: 100%; 
+        }
+
+         
+
+        
+        .box img
+        {
+            width: 90%;
+            height: 180px;
+            border-radius: 20px;
+        
+        }
+
+        
+        
+        .para
+        {
+            height: 100px;
+            overflow: hidden;
+        
+        }
+
+        .mybutton
+        {
+            text-decoration: none;
+            margin-top: 10px;
+            padding: 10px 20px;
+            display: inline-block;
+            color: white;
+            background-color: red;
+            border-radius: 10px;
+            width: border-box;
+            font-family: arial;
+            display: block;
+            text-align: center;
+        }
+        
+        .mybutton:hover
+        {
+            background-color: blue;
+        }
+
+    </style>
+</head>
+
+<body style="background: lightgray;">
+
+    <h1 style="color: white; font-family: arial;"> PRACTICAL 6: CREATE FOLLOWING LAYOUT USING CSS LAYOUT PROPERTIES</h1> 
+    
+    <div id="container">
+       
+        <div class="box" id="box1" >
+            <img src="./Images/html image.jpg">
+            <h2>Introduction to HTML</h2>
+            <div class="para">
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, et cum eum, voluptate vitae itaque, vero cumque hic delectus aut voluptas repellat sint inventore totam incidunt dolore. Totam, corrupti tempore? Quia nemo a laboriosam, quis recusandae, est provident voluptatem asperiores laborum officia expedita odit laudantium dolorum illum dignissimos rem? Placeat ea ut, ipsam, quisquam perferendis obcaecati tempora dolorum ex consectetur voluptatem libero sit iure labore accusamus optio provident illum nobis expedita facilis, repellat exercitationem at sed enim! Reprehenderit possimus nisi maxime aspernatur odit deserunt suscipit aut repellat esse, amet ipsum, ut tempora reiciendis eum quae nihil voluptates tenetur beatae architecto!
+                </p>
+            </div>
+            <a href="http://127.0.0.1:5501/Assign%206%20Html%20Content.html" class="mybutton">Read More</a>  
+         </div>
+         
+         
+        <div class="box" id="box2">
+            <img src="./Images/css img.jpg">
+            <h2>Introduction to CSS</h2>
+            <div class="para"> 
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis beatae, aliquid officiis natus est dolores obcaecati error accusantium quos eaque, iusto soluta placeat dignissimos debitis provident ab minus vitae. Nostrum, dignissimos ipsa, eligendi tempora quo eum, vero incidunt vitae possimus fugiat debitis quas eaque iusto eius voluptas enim exercitationem amet expedita atque? Soluta nulla repellat, obcaecati quia laborum natus fuga labore, possimus, nesciunt illum quam tempora placeat? Eius maxime nemo, labore dignissimos alias inventore voluptatum doloremque aut reprehenderit quod veniam. Reprehenderit molestias atque labore eos laudantium deleniti omnis fugiat aliquam magnam ea. Quas vel aut exercitationem? Velit, repudiandae explicabo.
+                </p>
+            </div>
+            <a href="http://127.0.0.1:5501/Assign%206%20Css%20Content.html" class="mybutton">Read More</a>  
+             
+        </div>
+         
+         
+        <div class="box" id="box3">
+            <img src="./Images/js img.jpg">
+            <h2>Introduction to Javascript</h2>
+            <div class="para">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum illum magni rerum assumenda adipisci. Maiores, consequatur quos similique impedit sit ex aliquam blanditiis ducimus laboriosam. Dolores, sapiente! Magni vero quasi nemo nisi alias quae soluta odit quos deleniti sit aperiam iste itaque eligendi corporis omnis libero deserunt, nostrum excepturi vel, veniam ullam maxime est suscipit iusto. Natus et aperiam facere laborum quia eligendi dolore libero nobis, tempore veniam autem earum impedit eos nesciunt sunt mollitia, quasi ipsa quas saepe corporis molestiae obcaecati! Ex, consequatur necessitatibus? Quos quae praesentium molestias doloremque modi laudantium reiciendis ab iste eligendi, culpa iusto sequi. Tenetur.            
+                </p>
+            </div>
+            <a href="http://127.0.0.1:5501/Assign%206%20Javascript%20content.html" class="mybutton">Read More</a>
+             
+
+        </div>
+         
+         
+        <div class="box" id="box4">
+            <img src="./Images/boot img.jpg">
+            <h2>Introduction to Bootstrap</h2>
+            <div class="para">
+                <p>
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates facilis beatae, aliquid officiis natus est dolores obcaecati error accusantium quos eaque, iusto soluta placeat dignissimos debitis provident ab minus vitae. Nostrum, dignissimos ipsa, eligendi tempora quo eum, vero incidunt vitae possimus fugiat debitis quas eaque iusto eius voluptas enim exercitationem amet expedita atque? Soluta nulla repellat, obcaecati quia laborum natus fuga labore, possimus, nesciunt illum quam tempora placeat? Eius maxime nemo, labore dignissimos alias inventore voluptatum doloremque aut reprehenderit quod veniam. Reprehenderit molestias atque labore eos laudantium deleniti omnis fugiat aliquam magnam ea. Quas vel aut exercitationem? Velit, repudiandae explicabo.
+            
+                </p>
+            </div>
+            <a href="http://127.0.0.1:5501/Assign%206%20bootstrap%20content.html" class="mybutton">Read More</a>
+            
+         </div>
+          
+    </div>
+     
+   
+     
+</body>
+</html> 
