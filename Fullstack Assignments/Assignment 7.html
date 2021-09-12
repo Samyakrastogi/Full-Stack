@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 7(Layout)</title>
+    <style>
+        body {
+            padding: 20px;
+            padding-top: 5px;
+        }
+        #header{
+            background-color: grey;
+            text-align: center;
+            display: block;
+            height: 50px;
+            color: white;
+            line-height: 50px;
+        }
+        #banner
+        {
+            color: white;
+            text-align: center;
+            line-height: 100vh;
+            background-color: skyblue;
+            cursor: pointer;
+        }
+        .maincontent
+        {
+            background-color: grey;
+            color: white;
+            text-align: center;
+            line-height: 100vh;
+            width: 100vh;
+            border: 10px solid white;
+            margin-top: 10px;
+        }
+
+        #section-1,#section-2,#section-3,#section-4{
+            text-align: center;
+        }
+
+        #articles
+        {
+             display: block;
+        }
+
+        #article1
+        {
+            color: white;
+            background-color: sienna;
+            display: block;
+            height: 33.33vh;
+            width: 100vh;
+            text-align: center;
+            line-height: 33.33vh;
+        }
+
+        #article2
+        {
+            color: white;
+            background-color: sienna;
+            display: block;
+            height: 33.33vh;
+            width: 100vh;
+            text-align: center;
+            line-height: 33.33vh;
+        }
+
+        #article3
+        {
+            color: white;
+            background-color: sienna;
+            display: block;
+            height: 33.33vh;
+            width: 100vh;
+            text-align: center;
+            line-height: 33.33vh;
+        }
+
+        #block
+        {
+            display: inline-flex;
+        }
+
+                       .boxes
+        {
+            
+                        display: inline-flex;
+                        width: fit-content;
+        }
+
+                           #box1,#box2,#box3,#box4{
+                      height: 50vh;
+                                   width: 45vh;
+                    background-color: orange;
+                           border: 15px solid white;
+        }
+
+        #footer{
+            text-align: center;
+            display: block;
+            height: 50px;
+            background-color: palevioletred;
+            color: white;
+            line-height: 50px;
+        }
+
+        #circle1,#circle2,#circle3,#circle4
+        {
+            height: 45vh;
+            width: 45vh;
+            background-color: yellowgreen;
+            border: 15px solid white;
+            border-radius: 50%;
+            display: inline-flex;
+        } 
+
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <h2>Header</h2>
+    </div>
+
+    <div id="banner">
+        <h2>Banner</h2>
+    </div>
+
+    <div id="section-1">
+        <h2>Section-1</h2>
+        <div id="circles">
+            <div class="circles" id="circle1"></div>
+            <div class="circles" id="circle2"></div>
+            <div class="circles" id="circle3"></div>
+            <div class="circles" id="circle4"></div>
+        </div>
+    </div>
+
+    <div id="section-2">
+        <h2>Section-2</h2>
+        <div id="block">
+            <div class="maincontent">
+                <h2>
+                    Main Content
+                </h2>
+            </div>
+
+            <div class="articles">
+                <div class="articles" id="article1">
+                <h2>Article-1</h2>
+                </div>
+
+                <div class="articles" id="article2">
+                <h2>Article-2</h2>
+                </div>
+
+                <div class="articles" id="article3">
+                <h2>Article-3</h2>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="section-3">
+        <h2>Section-3</h2>
+        <div id="boxes">
+            <div class="boxes" id="box1"></div>
+            <div class="boxes" id="box2"></div>
+            <div class="boxes" id="box3"></div>
+            <div class="boxes" id="box4"></div>
+        </div>
+    </div>
+
+    <div id="section-4">
+        <h2>Section-4</h2>
+    </div>
+
+    <div id="footer">
+         <h2>Footer</h2>
+    </div>
+
+</body>
+</html>
+
