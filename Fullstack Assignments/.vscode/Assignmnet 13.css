@@ -1,0 +1,62 @@
+body {
+    --col1: #d5e4bc;
+    --col2: #c1dcb7;
+    --col3: #bad6c8;
+    --col4: #bbd3dc;
+    --text-color: #64548f;
+    --green: rgb(11, 167, 11);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .col1 {
+    background-color: var(--col1);
+  }
+  .col2 {
+    background-color: var(--col2);
+  }
+  .col3 {
+    background-color: var(--col3);
+  }
+  .col4 {
+    background-color: var(--col4);
+  }
+  .price {
+    font-size: large;
+    color: var(--green);
+  }
+  #heading td {
+    font-size: x-large;
+    font-weight: bolder;
+    padding: 18px;
+    color: var(--text-color);
+  }
+  table td {
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+  }
+  #top {
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .fa-check {
+    color: var(--green);
+  }
+  .fa-times {
+    color: red;
+  }
+  button {
+    border-radius: 5px;
+    padding: 12px 30px 12px;
+    border: 0px;
+    background-color: var(--text-color);
+    color: white;
+    font-weight: bold;
+  }
+  button:hover {
+    background-color: red;
+    transition: 0.25s background-color;
+  }
